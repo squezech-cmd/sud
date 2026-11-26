@@ -1,5 +1,6 @@
 node_modules/
-dist/
+dist/*
+!dist/yandex-maps-parser-win64.zip
 results.csv
 results.json
 test/tmp-*.csv
