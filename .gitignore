@@ -1,0 +1,7 @@
+node_modules/
+dist/
+results.csv
+results.json
+test/tmp-*.csv
+test/tmp-*.json
+*.log

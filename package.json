@@ -1,0 +1,29 @@
+{
+  "name": "yandex-maps-no-website-parser",
+  "version": "1.0.0",
+  "description": "Парсер Яндекс.Карт: организации без сайта (телефоны, адреса, рейтинг) в CSV/JSON",
+  "main": "src/index.js",
+  "bin": {
+    "yandex-maps-parser": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/run-tests.js",
+    "build:win": "pkg package.json --targets node18-win-x64 --output dist/yandex-maps-parser.exe"
+  },
+  "pkg": {
+    "scripts": [
+      "src/*.js"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^6.26.0"
+  }
+}
